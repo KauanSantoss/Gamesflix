@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "PS4",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Veja mais sobre o console ",
+        "url": "https://www.techtudo.com.br/tudo-sobre/playstation-4.html#:~:text=O%20PlayStation%204%2C%20ou%20PS4,%3A%20fat%2C%20slim%20e%20Pro.&text=O%20console%20mais%20novo%2C%20PS4,e%20tem%20armazenamento%20de%201T."
+      },
+      "videos": [
+        {
+          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        },
+        {
+          "titulo": "CUPHEAD no PS4, Fantástico! | Início de Gameplay em Português PT-BR",
+          "url": "https://www.youtube.com/watch?v=ZCyJz_xpxHE"
+        },
+        {
+          "titulo": "SHADOW OF THE COLOSSUS PS4 ",
+          "url": "https://www.youtube.com/watch?v=f9rSuexbfuI"
+        },
+        {
+          "titulo": "God of War 3 Remastered - Parte 1: Kratos Vs Poseidon! [ 60FPS Playstation 4 - Playthrough PT-BR ]",
+          "url": "https://www.youtube.com/watch?v=GiIavr-kPLw"
+        },
+        {
+          "titulo": "Marvel’s Avengers - Beta Deep Dive Video | PS4",
+          "url": "https://www.youtube.com/watch?v=TIKzNtUbOK8"
+        },
+        {
+          "titulo": "God of War (PS4)",
+          "url": "https://www.youtube.com/watch?v=T_Srfdv6BZA"
+        },
+        {
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "titulo": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }        
+      ]
+    },
+    {
+      "titulo": "Xbox One",
+      "cor": "green",
+      "link_extra": {
+        "text": "Cursos de Back End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+        },
+        {
+          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+        },
+        {
+          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        },
+        {
+          "titulo": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        }, 
+        {
+          "titulo": "Usando Git Direito",
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Call of Duty®: Modern Warfare® & Warzone - Official Season Four Trailer",
+          "url": "https://www.youtube.com/watch?v=7N8VDutRs_U"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Marvel's Spider-Man: Miles Morales - Announcement Trailer | PS5",
+          "url": "https://www.youtube.com/watch?v=gHzuHo80U2M"
+        },
+        {
+          "titulo": "Forza Horizon 4 Official Launch Trailer",
+          "url": "https://www.youtube.com/watch?v=zJ477xAIlgU"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
