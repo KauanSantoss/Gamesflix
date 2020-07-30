@@ -15,12 +15,12 @@ function carousel({
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+          <Title style={{ backgroundColor: categoryColor || 'yellow' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
+          {categoryExtraLink &&
             <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
+              {categoryExtraLink.text}
             </ExtraLink>
           }
         </>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../PageDefault';
 import FormField from '../../../FormField';
@@ -27,6 +27,37 @@ function CadastroCategoria() {
       infosDoEvento.target.value,
     );
   }
+
+  useEffect(() => {
+    console.log('alo alo w brazil');
+    const URL_TOP = 'http://localhost:8080/categorias';
+    // E a ju ama variáveis
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+         ...resposta, 
+        ]);
+    });
+
+  //  setTimeout(() => {
+  //    setCategorias([
+  //     ...categorias,
+  //      {
+  //        id: 1,
+  //        nome: 'Front End',
+  //        descricao: 'Uma categoria show',
+  //        cor: '#ff0',
+  //      },
+  //      {
+  //        id: 2,
+  //        nome: 'Back End',
+  //        descricao: 'Outra categoria show',
+  //        cor: '#ff0',
+  //      },
+  //    ]);
+  //  }, 4 * 1000);
+  }, []);
 
   return (
     <PageDefault>
@@ -97,9 +128,16 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          {/* cargando... */}
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.nome}`}>
             {categoria.nome}
           </li>
         ))}
